@@ -2,12 +2,8 @@
 vct: https://example.com/credentials/your-credential-id
 background_color: "#1a365d"
 text_color: "#ffffff"
-
-# Optional: mDOC/mso_mdoc format options
 # doctype: com.example.credentials.your-credential
 # namespace: com.example.credentials.your-credential
-
-# Optional: W3C VC format options  
 # w3c_type: YourCredentialType
 ---
 
