@@ -2,6 +2,7 @@
 vct: https://example.com/credentials/student-id
 background_color: "#0047AB"
 text_color: "#ffffff"
+doctype: com.example.credentials.student-id
 ---
 
 # Student ID Credential

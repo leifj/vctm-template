@@ -2,6 +2,13 @@
 vct: https://example.com/credentials/your-credential-id
 background_color: "#1a365d"
 text_color: "#ffffff"
+
+# Optional: mDOC/mso_mdoc format options
+# doctype: com.example.credentials.your-credential
+# namespace: com.example.credentials.your-credential
+
+# Optional: W3C VC format options  
+# w3c_type: YourCredentialType
 ---
 
 # Your Credential Name
@@ -16,6 +23,16 @@ A brief description of what this credential represents and its purpose.
 - `another_claim` "Another Claim" (type): Description of another claim
 - `optional_claim` "Optional Claim" (string): An optional claim
 - `selective_claim` "Selective Claim" (string): A claim with selective disclosure [sd=always]
+
+### Claim Types
+
+Available types for claims:
+- `string` - Text values (default)
+- `integer` - Whole numbers  
+- `date` - Date values (YYYY-MM-DD)
+- `datetime` - Date with time (ISO 8601)
+- `boolean` - True/false values
+- `image` - Base64-encoded image data
 
 ## Images
 

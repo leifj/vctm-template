@@ -2,6 +2,7 @@
 vct: https://example.com/credentials/demo-identity
 background_color: "#1a365d"
 text_color: "#ffffff"
+doctype: com.example.credentials.demo-identity
 ---
 
 # Demo Identity Credential

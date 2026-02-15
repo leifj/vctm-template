@@ -1,12 +1,20 @@
 # VCTM Template Repository
 
-A template repository for maintaining Verifiable Credential Type Metadata (VCTM) credentials as markdown files. This template uses the [sirosfoundation/mtcvctm](https://github.com/sirosfoundation/mtcvctm) GitHub Action to automatically generate VCTM files from markdown.
+A template repository for maintaining Verifiable Credential Type Metadata from markdown files. This template uses the [sirosfoundation/mtcvctm](https://github.com/sirosfoundation/mtcvctm) GitHub Action to automatically generate credential metadata in multiple formats.
+
+## Supported Output Formats
+
+| Format | File Extension | Specification | Use Case |
+|--------|---------------|---------------|----------|
+| **VCTM** | `.vctm.json` | SD-JWT VC Type Metadata | OIDF/EUDI wallets |
+| **mDOC** | `.mdoc.json` | ISO 18013-5 / OpenID4VCI | Mobile credentials, EU PID |
+| **W3C VC** | `.vc.json` | W3C VCDM 2.0 JSON Schema | W3C ecosystem interop |
 
 ## Quick Start
 
 1. **Use this template**: Click "Use this template" to create your own repository
 2. **Add credentials**: Create markdown files in the `credentials/` directory
-3. **Push to main**: The GitHub Action will automatically generate VCTM files on the `vctm` branch
+3. **Push to main**: The GitHub Action will automatically generate all formats on the `vctm` branch
 
 ## Structure
 
@@ -50,10 +58,18 @@ A description of your credential.
 
 ### Front Matter Options
 
-- `vct`: Verifiable Credential Type identifier (required)
+**Core Options:**
+- `vct`: Verifiable Credential Type identifier (required for VCTM format)
 - `background_color`: Background color for credential display
 - `text_color`: Text color for credential display
 - `extends`: Comma-separated list of VCT identifiers this type extends
+
+**mDOC/mso_mdoc Options:**
+- `doctype`: ISO 18013-5 document type (e.g., `eu.europa.ec.eudi.pid.1`)
+- `namespace`: mDOC claims namespace (defaults to doctype if not specified)
+
+**W3C VC Options:**
+- `w3c_type`: W3C credential type (e.g., `PersonIdentificationCredential`)
 
 ### Claim Format
 
@@ -70,15 +86,22 @@ A description of your credential.
 
 1. When you push changes to markdown files in `credentials/`, the GitHub Action triggers
 2. The `sirosfoundation/mtcvctm` action processes all markdown files
-3. VCTM JSON files are generated and committed to the `vctm` branch
+3. Credential metadata files are generated in multiple formats and committed to the `vctm` branch
 4. A registry file is created at `.well-known/vctm-registry.json`
 
 ## Accessing Generated Files
 
-After the action runs, your VCTM files will be available on the `vctm` branch:
+After the action runs, your credential files will be available on the `vctm` branch:
 
 ```
-https://github.com/YOUR-USERNAME/YOUR-REPO/raw/vctm/demo-identity.vctm
+# SD-JWT VC Type Metadata
+https://github.com/YOUR-USERNAME/YOUR-REPO/raw/vctm/demo-identity.vctm.json
+
+# mDOC (ISO 18013-5)
+https://github.com/YOUR-USERNAME/YOUR-REPO/raw/vctm/demo-identity.mdoc.json
+
+# W3C VC JSON Schema
+https://github.com/YOUR-USERNAME/YOUR-REPO/raw/vctm/demo-identity.vc.json
 ```
 
 ## Customization
@@ -97,6 +120,16 @@ Edit `.github/workflows/vctm.yml` and update the `vctm-branch` parameter:
 
 ```yaml
 vctm-branch: your-branch-name
+```
+
+### Select output formats
+
+By default, all formats are generated. To generate specific formats only:
+
+```yaml
+formats: vctm           # Only VCTM
+formats: vctm,mddl      # VCTM and mDOC
+formats: all            # All formats (default)
 ```
 
 ## License

@@ -22,4 +22,5 @@ jobs:
           output-dir: ./vctm
           base-url: https://raw.githubusercontent.com/${{ github.repository }}/vctm
           vctm-branch: vctm
-          commit-message: "Update VCTM files [skip ci]"
+          commit-message: "Update credential metadata files [skip ci]"
+          formats: all
