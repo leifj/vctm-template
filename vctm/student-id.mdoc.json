@@ -1,0 +1,135 @@
+{
+  "format": "mso_mdoc",
+  "doctype": "com.example.credentials.student-id",
+  "display": [
+    {
+      "locale": "en-US",
+      "name": "Student ID Credential",
+      "description": "A verifiable credential representing a student identification card. This credential demonstrates SVG template rendering with claim placeholders and multi-language support.",
+      "background_color": "#0047AB",
+      "text_color": "#ffffff"
+    }
+  ],
+  "claims": {
+    "com.example.credentials.student-id": {
+      "family_name": {
+        "display": [
+          {
+            "locale": "en-US",
+            "name": "Family Name"
+          },
+          {
+            "locale": "sv",
+            "name": "Efternamn"
+          },
+          {
+            "locale": "de-DE",
+            "name": "Familienname"
+          }
+        ],
+        "mandatory": true,
+        "value_type": "tstr"
+      },
+      "given_name": {
+        "display": [
+          {
+            "locale": "en-US",
+            "name": "Given Name"
+          },
+          {
+            "locale": "de-DE",
+            "name": "Vorname"
+          },
+          {
+            "locale": "sv",
+            "name": "Förnamn"
+          }
+        ],
+        "mandatory": true,
+        "value_type": "tstr"
+      },
+      "institution": {
+        "display": [
+          {
+            "locale": "en-US",
+            "name": "Institution"
+          },
+          {
+            "locale": "de-DE",
+            "name": "Bildungseinrichtung"
+          },
+          {
+            "locale": "sv",
+            "name": "Utbildningsinstitution"
+          }
+        ],
+        "mandatory": true,
+        "value_type": "tstr"
+      },
+      "photo": {
+        "display": [
+          {
+            "locale": "en-US",
+            "name": "Photo"
+          }
+        ],
+        "value_type": "bstr"
+      },
+      "program": {
+        "display": [
+          {
+            "locale": "en-US",
+            "name": "Academic Program"
+          },
+          {
+            "locale": "de-DE",
+            "name": "Studiengang"
+          },
+          {
+            "locale": "sv",
+            "name": "Program"
+          }
+        ],
+        "value_type": "tstr"
+      },
+      "student_id": {
+        "display": [
+          {
+            "locale": "en-US",
+            "name": "Student ID"
+          },
+          {
+            "locale": "de-DE",
+            "name": "Matrikelnummer"
+          },
+          {
+            "locale": "sv",
+            "name": "Studentnummer"
+          }
+        ],
+        "mandatory": true,
+        "value_type": "tstr"
+      },
+      "valid_from": {
+        "display": [
+          {
+            "locale": "en-US",
+            "name": "Valid From"
+          }
+        ],
+        "mandatory": true,
+        "value_type": "full-date"
+      },
+      "valid_until": {
+        "display": [
+          {
+            "locale": "en-US",
+            "name": "Valid Until"
+          }
+        ],
+        "mandatory": true,
+        "value_type": "full-date"
+      }
+    }
+  }
+}

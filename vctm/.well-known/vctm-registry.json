@@ -1,0 +1,43 @@
+{
+  "version": "1.0",
+  "generated": "2026-02-15T14:28:29Z",
+  "repository": {
+    "url": "https://github.com/leifj/vctm-template",
+    "owner": "leifj",
+    "name": "vctm-template",
+    "branch": "main",
+    "commit": "4dfaf33c8c3a35cab45462fbc0808ddca85c3820"
+  },
+  "credentials": [
+    {
+      "vct": "https://example.com/credentials/demo-identity",
+      "name": "Demo Identity Credential",
+      "source_file": "demo-identity.md",
+      "vctm_file": "demo-identity.vctm",
+      "last_modified": "2026-02-15T15:13:27+01:00",
+      "commit_history": [
+        {
+          "sha": "4dfaf33c8c3a35cab45462fbc0808ddca85c3820",
+          "message": "fix: Rename TEMPLATE.md to _TEMPLATE.md to exclude from processing",
+          "author": "Leif Johansson",
+          "date": "2026-02-15T15:13:27+01:00"
+        }
+      ]
+    },
+    {
+      "vct": "https://example.com/credentials/student-id",
+      "name": "Student ID Credential",
+      "source_file": "student-id.md",
+      "vctm_file": "student-id.vctm",
+      "last_modified": "2026-02-15T15:13:27+01:00",
+      "commit_history": [
+        {
+          "sha": "4dfaf33c8c3a35cab45462fbc0808ddca85c3820",
+          "message": "fix: Rename TEMPLATE.md to _TEMPLATE.md to exclude from processing",
+          "author": "Leif Johansson",
+          "date": "2026-02-15T15:13:27+01:00"
+        }
+      ]
+    }
+  ]
+}
