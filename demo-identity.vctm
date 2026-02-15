@@ -1,0 +1,145 @@
+{
+  "vct": "https://example.com/credentials/demo-identity",
+  "name": "Demo Identity Credential",
+  "description": "A demonstration verifiable credential for identity verification. This credential can be used as a template for creating your own VCTM credentials.",
+  "display": [
+    {
+      "locale": "en-US",
+      "name": "Demo Identity Credential",
+      "description": "A demonstration verifiable credential for identity verification. This credential can be used as a template for creating your own VCTM credentials.",
+      "rendering": {
+        "simple": {
+          "logo": {
+            "uri": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMDAgMjAwIiB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCI+CiAgPCEtLSBCYWNrZ3JvdW5kIENpcmNsZSAtLT4KICA8Y2lyY2xlIGN4PSIxMDAiIGN5PSIxMDAiIHI9Ijk1IiBmaWxsPSIjMWEzNjVkIiBzdHJva2U9IiNmZmZmZmYiIHN0cm9rZS13aWR0aD0iMiIvPgogIAogIDwhLS0gQ3JlZGVudGlhbCBTeW1ib2wgLSBEb2N1bWVudCBJY29uIC0tPgogIDxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKDUwLCA0MCkiPgogICAgPCEtLSBEb2N1bWVudCBvdXRsaW5lIC0tPgogICAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEwMCIgaGVpZ2h0PSIxMjAiIHJ4PSI1IiBmaWxsPSIjZmZmZmZmIiBvcGFjaXR5PSIwLjkiLz4KICAgIAogICAgPCEtLSBIZWFkZXIgbGluZXMgLS0+CiAgICA8cmVjdCB4PSIxNSIgeT0iMjAiIHdpZHRoPSI3MCIgaGVpZ2h0PSI4IiByeD0iMiIgZmlsbD0iIzFhMzY1ZCIvPgogICAgPHJlY3QgeD0iMTUiIHk9IjM1IiB3aWR0aD0iNTAiIGhlaWdodD0iNiIgcng9IjIiIGZpbGw9IiMxYTM2NWQiIG9wYWNpdHk9IjAuNiIvPgogICAgCiAgICA8IS0tIENvbnRlbnQgbGluZXMgLS0+CiAgICA8cmVjdCB4PSIxNSIgeT0iNTUiIHdpZHRoPSI3MCIgaGVpZ2h0PSI0IiByeD0iMSIgZmlsbD0iIzFhMzY1ZCIgb3BhY2l0eT0iMC40Ii8+CiAgICA8cmVjdCB4PSIxNSIgeT0iNjUiIHdpZHRoPSI2MCIgaGVpZ2h0PSI0IiByeD0iMSIgZmlsbD0iIzFhMzY1ZCIgb3BhY2l0eT0iMC40Ii8+CiAgICA8cmVjdCB4PSIxNSIgeT0iNzUiIHdpZHRoPSI2NSIgaGVpZ2h0PSI0IiByeD0iMSIgZmlsbD0iIzFhMzY1ZCIgb3BhY2l0eT0iMC40Ii8+CiAgICA8cmVjdCB4PSIxNSIgeT0iODUiIHdpZHRoPSI1NSIgaGVpZ2h0PSI0IiByeD0iMSIgZmlsbD0iIzFhMzY1ZCIgb3BhY2l0eT0iMC40Ii8+CiAgICAKICAgIDwhLS0gQ2hlY2ttYXJrIC0gVmVyaWZpY2F0aW9uIFN5bWJvbCAtLT4KICAgIDxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKDIwLCA5NSkiPgogICAgICA8Y2lyY2xlIGN4PSIxNSIgY3k9IjE1IiByPSIxNSIgZmlsbD0iIzJlY2M3MSIgb3BhY2l0eT0iMC45Ii8+CiAgICAgIDxwYXRoIGQ9Ik0gOCAxNSBMIDEzIDIwIEwgMjIgMTAiIHN0cm9rZT0iI2ZmZmZmZiIgc3Ryb2tlLXdpZHRoPSIzIiBmaWxsPSJub25lIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KICAgIDwvZz4KICA8L2c+CiAgCiAgPCEtLSBUZXh0IC0tPgogIDx0ZXh0IHg9IjEwMCIgeT0iMTg1IiBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTQiIGZpbGw9IiNmZmZmZmYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtd2VpZ2h0PSJib2xkIj4KICAgIERFTU8gQ1JFREVOVElBTAogIDwvdGV4dD4KPC9zdmc+Cg==",
+            "alt_text": "Logo"
+          },
+          "background_color": "#1a365d",
+          "text_color": "#ffffff"
+        },
+        "svg_templates": [
+          {
+            "uri": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMDAgMjAwIiB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCI+CiAgPCEtLSBCYWNrZ3JvdW5kIENpcmNsZSAtLT4KICA8Y2lyY2xlIGN4PSIxMDAiIGN5PSIxMDAiIHI9Ijk1IiBmaWxsPSIjMWEzNjVkIiBzdHJva2U9IiNmZmZmZmYiIHN0cm9rZS13aWR0aD0iMiIvPgogIAogIDwhLS0gQ3JlZGVudGlhbCBTeW1ib2wgLSBEb2N1bWVudCBJY29uIC0tPgogIDxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKDUwLCA0MCkiPgogICAgPCEtLSBEb2N1bWVudCBvdXRsaW5lIC0tPgogICAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEwMCIgaGVpZ2h0PSIxMjAiIHJ4PSI1IiBmaWxsPSIjZmZmZmZmIiBvcGFjaXR5PSIwLjkiLz4KICAgIAogICAgPCEtLSBIZWFkZXIgbGluZXMgLS0+CiAgICA8cmVjdCB4PSIxNSIgeT0iMjAiIHdpZHRoPSI3MCIgaGVpZ2h0PSI4IiByeD0iMiIgZmlsbD0iIzFhMzY1ZCIvPgogICAgPHJlY3QgeD0iMTUiIHk9IjM1IiB3aWR0aD0iNTAiIGhlaWdodD0iNiIgcng9IjIiIGZpbGw9IiMxYTM2NWQiIG9wYWNpdHk9IjAuNiIvPgogICAgCiAgICA8IS0tIENvbnRlbnQgbGluZXMgLS0+CiAgICA8cmVjdCB4PSIxNSIgeT0iNTUiIHdpZHRoPSI3MCIgaGVpZ2h0PSI0IiByeD0iMSIgZmlsbD0iIzFhMzY1ZCIgb3BhY2l0eT0iMC40Ii8+CiAgICA8cmVjdCB4PSIxNSIgeT0iNjUiIHdpZHRoPSI2MCIgaGVpZ2h0PSI0IiByeD0iMSIgZmlsbD0iIzFhMzY1ZCIgb3BhY2l0eT0iMC40Ii8+CiAgICA8cmVjdCB4PSIxNSIgeT0iNzUiIHdpZHRoPSI2NSIgaGVpZ2h0PSI0IiByeD0iMSIgZmlsbD0iIzFhMzY1ZCIgb3BhY2l0eT0iMC40Ii8+CiAgICA8cmVjdCB4PSIxNSIgeT0iODUiIHdpZHRoPSI1NSIgaGVpZ2h0PSI0IiByeD0iMSIgZmlsbD0iIzFhMzY1ZCIgb3BhY2l0eT0iMC40Ii8+CiAgICAKICAgIDwhLS0gQ2hlY2ttYXJrIC0gVmVyaWZpY2F0aW9uIFN5bWJvbCAtLT4KICAgIDxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKDIwLCA5NSkiPgogICAgICA8Y2lyY2xlIGN4PSIxNSIgY3k9IjE1IiByPSIxNSIgZmlsbD0iIzJlY2M3MSIgb3BhY2l0eT0iMC45Ii8+CiAgICAgIDxwYXRoIGQ9Ik0gOCAxNSBMIDEzIDIwIEwgMjIgMTAiIHN0cm9rZT0iI2ZmZmZmZiIgc3Ryb2tlLXdpZHRoPSIzIiBmaWxsPSJub25lIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KICAgIDwvZz4KICA8L2c+CiAgCiAgPCEtLSBUZXh0IC0tPgogIDx0ZXh0IHg9IjEwMCIgeT0iMTg1IiBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTQiIGZpbGw9IiNmZmZmZmYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtd2VpZ2h0PSJib2xkIj4KICAgIERFTU8gQ1JFREVOVElBTAogIDwvdGV4dD4KPC9zdmc+Cg=="
+          }
+        ]
+      }
+    }
+  ],
+  "claims": [
+    {
+      "path": [
+        "given_name"
+      ],
+      "display": [
+        {
+          "locale": "en-US",
+          "label": "Given Name",
+          "description": "The given name of the credential holder"
+        },
+        {
+          "locale": "de-DE",
+          "label": "Vorname",
+          "description": "Der Vorname des Inhabers"
+        },
+        {
+          "locale": "fr",
+          "label": "Prénom",
+          "description": "Le prénom du titulaire"
+        }
+      ],
+      "mandatory": true
+    },
+    {
+      "path": [
+        "family_name"
+      ],
+      "display": [
+        {
+          "locale": "en-US",
+          "label": "Family Name",
+          "description": "The family name of the credential holder"
+        },
+        {
+          "locale": "de-DE",
+          "label": "Familienname",
+          "description": "Der Familienname des Inhabers"
+        },
+        {
+          "locale": "fr",
+          "label": "Nom de famille",
+          "description": "Le nom de famille du titulaire"
+        }
+      ],
+      "mandatory": true
+    },
+    {
+      "path": [
+        "birth_date"
+      ],
+      "display": [
+        {
+          "locale": "en-US",
+          "label": "Date of Birth",
+          "description": "Date of birth of the holder"
+        },
+        {
+          "locale": "fr",
+          "label": "Date de naissance",
+          "description": "Date de naissance du titulaire"
+        },
+        {
+          "locale": "de-DE",
+          "label": "Geburtsdatum",
+          "description": "Geburtsdatum des Inhabers"
+        }
+      ],
+      "sd": "always"
+    },
+    {
+      "path": [
+        "email"
+      ],
+      "display": [
+        {
+          "locale": "en-US",
+          "label": "Email",
+          "description": "Email address of the holder"
+        }
+      ]
+    },
+    {
+      "path": [
+        "nationality"
+      ],
+      "display": [
+        {
+          "locale": "en-US",
+          "label": "Nationality",
+          "description": "Nationality of the credential holder"
+        },
+        {
+          "locale": "de-DE",
+          "label": "Staatsangehörigkeit",
+          "description": "Staatsangehörigkeit des Inhabers"
+        },
+        {
+          "locale": "fr",
+          "label": "Nationalité",
+          "description": "Nationalité du titulaire"
+        }
+      ]
+    },
+    {
+      "path": [
+        "national_id"
+      ],
+      "display": [
+        {
+          "locale": "en-US",
+          "label": "National ID",
+          "description": "National identification number"
+        }
+      ],
+      "sd": "always"
+    }
+  ]
+}
