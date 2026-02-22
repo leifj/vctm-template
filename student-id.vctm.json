@@ -1,0 +1,125 @@
+{
+  "claims": [
+    {
+      "description": "Unique student identification number",
+      "display": [
+        {
+          "label": "Student ID",
+          "lang": "en"
+        }
+      ],
+      "path": [
+        "student_id"
+      ],
+      "svg_id": "student_id"
+    },
+    {
+      "description": "Name of the educational institution",
+      "display": [
+        {
+          "label": "Institution",
+          "lang": "en"
+        }
+      ],
+      "path": [
+        "institution"
+      ],
+      "svg_id": "institution"
+    },
+    {
+      "description": "Academic program or major",
+      "display": [
+        {
+          "label": "Academic Program",
+          "lang": "en"
+        }
+      ],
+      "path": [
+        "program"
+      ],
+      "svg_id": "program"
+    },
+    {
+      "description": "Start date of validity",
+      "display": [
+        {
+          "label": "Valid From",
+          "lang": "en"
+        }
+      ],
+      "path": [
+        "valid_from"
+      ]
+    },
+    {
+      "description": "Expiration date of the credential",
+      "display": [
+        {
+          "label": "Valid Until",
+          "lang": "en"
+        }
+      ],
+      "path": [
+        "valid_until"
+      ],
+      "svg_id": "valid_until"
+    },
+    {
+      "description": "Student photo",
+      "display": [
+        {
+          "label": "Photo",
+          "lang": "en"
+        }
+      ],
+      "path": [
+        "photo"
+      ],
+      "sd": "always"
+    },
+    {
+      "description": "Student's given name",
+      "display": [
+        {
+          "label": "Given Name",
+          "lang": "en"
+        }
+      ],
+      "path": [
+        "given_name"
+      ],
+      "svg_id": "given_name"
+    },
+    {
+      "description": "Student's family name",
+      "display": [
+        {
+          "label": "Family Name",
+          "lang": "en"
+        }
+      ],
+      "path": [
+        "family_name"
+      ],
+      "svg_id": "family_name"
+    }
+  ],
+  "description": "A verifiable credential representing a student identification card. This credential demonstrates SVG template rendering with claim placeholders and multi-language support.",
+  "display": [
+    {
+      "rendering": {
+        "simple": {
+          "background_color": "#0047AB",
+          "text_color": "#ffffff"
+        },
+        "svg_templates": [
+          {
+            "uri": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0MDAgMjUwIiB3aWR0aD0iNDAwIiBoZWlnaHQ9IjI1MCI+CiAgPGRlZnM+CiAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImNhcmRHcmFkaWVudCIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMTAwJSI+CiAgICAgIDxzdG9wIG9mZnNldD0iMCUiIHN0eWxlPSJzdG9wLWNvbG9yOiMwMDQ3QUIiLz4KICAgICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdHlsZT0ic3RvcC1jb2xvcjojMDAyRDZEIi8+CiAgICA8L2xpbmVhckdyYWRpZW50PgogICAgPGZpbHRlciBpZD0ic2hhZG93IiB4PSItMTAlIiB5PSItMTAlIiB3aWR0aD0iMTIwJSIgaGVpZ2h0PSIxMjAlIj4KICAgICAgPGZlRHJvcFNoYWRvdyBkeD0iMiIgZHk9IjQiIHN0ZERldmlhdGlvbj0iNCIgZmxvb2Qtb3BhY2l0eT0iMC4zIi8+CiAgICA8L2ZpbHRlcj4KICA8L2RlZnM+CiAgCiAgPCEtLSBDYXJkIGJhY2tncm91bmQgLS0+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjQwMCIgaGVpZ2h0PSIyNTAiIHJ4PSIxNiIgcnk9IjE2IiBmaWxsPSJ1cmwoI2NhcmRHcmFkaWVudCkiIGZpbHRlcj0idXJsKCNzaGFkb3cpIi8+CiAgCiAgPCEtLSBIZWFkZXIgc3RyaXBlIC0tPgogIDxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSI0MDAiIGhlaWdodD0iNjAiIHJ4PSIxNiIgcnk9IjE2IiBmaWxsPSIjMDAzMzgwIi8+CiAgPHJlY3QgeD0iMCIgeT0iMzAiIHdpZHRoPSI0MDAiIGhlaWdodD0iMzAiIGZpbGw9IiMwMDMzODAiLz4KICAKICA8IS0tIEluc3RpdHV0aW9uIG5hbWUgcGxhY2Vob2xkZXIgLS0+CiAgPHRleHQgaWQ9Imluc3RpdHV0aW9uIiB4PSIyMDAiIHk9IjQwIiBmaWxsPSJ3aGl0ZSIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjE4IiBmb250LXdlaWdodD0iYm9sZCIgdGV4dC1hbmNob3I9Im1pZGRsZSI+VW5pdmVyc2l0eSBOYW1lPC90ZXh0PgogIAogIDwhLS0gU3R1ZGVudCBJRCBDYXJkIGxhYmVsIC0tPgogIDx0ZXh0IHg9IjIwMCIgeT0iODAiIGZpbGw9IndoaXRlIiBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTIiIGZvbnQtd2VpZ2h0PSJub3JtYWwiIHRleHQtYW5jaG9yPSJtaWRkbGUiIG9wYWNpdHk9IjAuOCI+U1RVREVOVCBJREVOVElGSUNBVElPTiBDQVJEPC90ZXh0PgogIAogIDwhLS0gUGhvdG8gcGxhY2Vob2xkZXIgYXJlYSAtLT4KICA8cmVjdCB4PSIyNCIgeT0iMTAwIiB3aWR0aD0iODAiIGhlaWdodD0iMTAwIiByeD0iNCIgcnk9IjQiIGZpbGw9IndoaXRlIiBvcGFjaXR5PSIwLjIiLz4KICA8dGV4dCB4PSI2NCIgeT0iMTU1IiBmaWxsPSJ3aGl0ZSIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBvcGFjaXR5PSIwLjUiPlBIT1RPPC90ZXh0PgogIAogIDwhLS0gU3R1ZGVudCBuYW1lIHBsYWNlaG9sZGVycyAtLT4KICA8dGV4dCBpZD0iZ2l2ZW5fbmFtZSIgeD0iMTI0IiB5PSIxMjUiIGZpbGw9IndoaXRlIiBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMjAiIGZvbnQtd2VpZ2h0PSJib2xkIj5HaXZlbiBOYW1lPC90ZXh0PgogIDx0ZXh0IGlkPSJmYW1pbHlfbmFtZSIgeD0iMTI0IiB5PSIxNTAiIGZpbGw9IndoaXRlIiBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMjAiIGZvbnQtd2VpZ2h0PSJib2xkIj5GYW1pbHkgTmFtZTwvdGV4dD4KICAKICA8IS0tIFByb2dyYW0gcGxhY2Vob2xkZXIgLS0+CiAgPHRleHQgeD0iMTI0IiB5PSIxNzUiIGZpbGw9IndoaXRlIiBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTEiIG9wYWNpdHk9IjAuOCI+UHJvZ3JhbTo8L3RleHQ+CiAgPHRleHQgaWQ9InByb2dyYW0iIHg9IjE4MCIgeT0iMTc1IiBmaWxsPSJ3aGl0ZSIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjExIj5BY2FkZW1pYyBQcm9ncmFtPC90ZXh0PgogIAogIDwhLS0gU3R1ZGVudCBJRCBzZWN0aW9uIC0tPgogIDx0ZXh0IHg9IjI0IiB5PSIyMjUiIGZpbGw9IndoaXRlIiBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTAiIG9wYWNpdHk9IjAuNyI+U3R1ZGVudCBJRDo8L3RleHQ+CiAgPHRleHQgaWQ9InN0dWRlbnRfaWQiIHg9IjI0IiB5PSIyNDAiIGZpbGw9IndoaXRlIiBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTQiIGZvbnQtd2VpZ2h0PSJib2xkIj4wMDAwMDAwMDA8L3RleHQ+CiAgCiAgPCEtLSBWYWxpZGl0eSBzZWN0aW9uIC0tPgogIDx0ZXh0IHg9IjMwMCIgeT0iMjI1IiBmaWxsPSJ3aGl0ZSIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEwIiB0ZXh0LWFuY2hvcj0iZW5kIiBvcGFjaXR5PSIwLjciPlZhbGlkIFVudGlsOjwvdGV4dD4KICA8dGV4dCBpZD0idmFsaWRfdW50aWwiIHg9IjMwMCIgeT0iMjQwIiBmaWxsPSJ3aGl0ZSIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyIiB0ZXh0LWFuY2hvcj0iZW5kIj5ZWVlZLU1NLUREPC90ZXh0PgogIAogIDwhLS0gRGVjb3JhdGl2ZSBlbGVtZW50IC0tPgogIDxjaXJjbGUgY3g9IjM3MCIgY3k9IjIyMCIgcj0iMjAiIGZpbGw9Im5vbmUiIHN0cm9rZT0id2hpdGUiIHN0cm9rZS13aWR0aD0iMS41IiBvcGFjaXR5PSIwLjMiLz4KICA8Y2lyY2xlIGN4PSIzNzAiIGN5PSIyMjAiIHI9IjE0IiBmaWxsPSJub25lIiBzdHJva2U9IndoaXRlIiBzdHJva2Utd2lkdGg9IjEiIG9wYWNpdHk9IjAuMyIvPgo8L3N2Zz4K"
+          }
+        ]
+      }
+    }
+  ],
+  "name": "Student ID Credential",
+  "vct": "https://example.com/credentials/student-id"
+}

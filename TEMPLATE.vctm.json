@@ -1,0 +1,106 @@
+{
+  "claims": [
+    {
+      "description": "Description of this claim",
+      "display": [
+        {
+          "label": "Claim Label",
+          "lang": "en"
+        }
+      ],
+      "path": [
+        "claim_name"
+      ]
+    },
+    {
+      "description": "Description of another claim",
+      "display": [
+        {
+          "label": "Another Claim",
+          "lang": "en"
+        }
+      ],
+      "path": [
+        "another_claim"
+      ]
+    },
+    {
+      "description": "A claim with selective disclosure",
+      "display": [
+        {
+          "label": "Selective Claim",
+          "lang": "en"
+        }
+      ],
+      "path": [
+        "selective_claim"
+      ],
+      "sd": "always"
+    },
+    {
+      "description": "- Text values (default)",
+      "path": [
+        "string"
+      ]
+    },
+    {
+      "description": "- Whole numbers",
+      "path": [
+        "integer"
+      ]
+    },
+    {
+      "description": "- Date values (YYYY-MM-DD)",
+      "path": [
+        "date"
+      ]
+    },
+    {
+      "description": "- Date with time (ISO 8601)",
+      "path": [
+        "datetime"
+      ]
+    },
+    {
+      "description": "An optional claim",
+      "display": [
+        {
+          "label": "Optional Claim",
+          "lang": "en"
+        }
+      ],
+      "path": [
+        "optional_claim"
+      ]
+    },
+    {
+      "description": "- True/false values",
+      "path": [
+        "boolean"
+      ]
+    },
+    {
+      "description": "- Base64-encoded image data",
+      "path": [
+        "image"
+      ]
+    }
+  ],
+  "display": [
+    {
+      "rendering": {
+        "simple": {
+          "background_color": "#1a365d",
+          "text_color": "#ffffff"
+        },
+        "svg_templates": [
+          {
+            "uri": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMDAgMjAwIiB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCI+CiAgPCEtLSBCYWNrZ3JvdW5kIENpcmNsZSAtLT4KICA8Y2lyY2xlIGN4PSIxMDAiIGN5PSIxMDAiIHI9Ijk1IiBmaWxsPSIjMWEzNjVkIiBzdHJva2U9IiNmZmZmZmYiIHN0cm9rZS13aWR0aD0iMiIvPgogIAogIDwhLS0gQ3JlZGVudGlhbCBTeW1ib2wgLSBEb2N1bWVudCBJY29uIC0tPgogIDxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKDUwLCA0MCkiPgogICAgPCEtLSBEb2N1bWVudCBvdXRsaW5lIC0tPgogICAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEwMCIgaGVpZ2h0PSIxMjAiIHJ4PSI1IiBmaWxsPSIjZmZmZmZmIiBvcGFjaXR5PSIwLjkiLz4KICAgIAogICAgPCEtLSBIZWFkZXIgbGluZXMgLS0+CiAgICA8cmVjdCB4PSIxNSIgeT0iMjAiIHdpZHRoPSI3MCIgaGVpZ2h0PSI4IiByeD0iMiIgZmlsbD0iIzFhMzY1ZCIvPgogICAgPHJlY3QgeD0iMTUiIHk9IjM1IiB3aWR0aD0iNTAiIGhlaWdodD0iNiIgcng9IjIiIGZpbGw9IiMxYTM2NWQiIG9wYWNpdHk9IjAuNiIvPgogICAgCiAgICA8IS0tIENvbnRlbnQgbGluZXMgLS0+CiAgICA8cmVjdCB4PSIxNSIgeT0iNTUiIHdpZHRoPSI3MCIgaGVpZ2h0PSI0IiByeD0iMSIgZmlsbD0iIzFhMzY1ZCIgb3BhY2l0eT0iMC40Ii8+CiAgICA8cmVjdCB4PSIxNSIgeT0iNjUiIHdpZHRoPSI2MCIgaGVpZ2h0PSI0IiByeD0iMSIgZmlsbD0iIzFhMzY1ZCIgb3BhY2l0eT0iMC40Ii8+CiAgICA8cmVjdCB4PSIxNSIgeT0iNzUiIHdpZHRoPSI2NSIgaGVpZ2h0PSI0IiByeD0iMSIgZmlsbD0iIzFhMzY1ZCIgb3BhY2l0eT0iMC40Ii8+CiAgICA8cmVjdCB4PSIxNSIgeT0iODUiIHdpZHRoPSI1NSIgaGVpZ2h0PSI0IiByeD0iMSIgZmlsbD0iIzFhMzY1ZCIgb3BhY2l0eT0iMC40Ii8+CiAgICAKICAgIDwhLS0gQ2hlY2ttYXJrIC0gVmVyaWZpY2F0aW9uIFN5bWJvbCAtLT4KICAgIDxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKDIwLCA5NSkiPgogICAgICA8Y2lyY2xlIGN4PSIxNSIgY3k9IjE1IiByPSIxNSIgZmlsbD0iIzJlY2M3MSIgb3BhY2l0eT0iMC45Ii8+CiAgICAgIDxwYXRoIGQ9Ik0gOCAxNSBMIDEzIDIwIEwgMjIgMTAiIHN0cm9rZT0iI2ZmZmZmZiIgc3Ryb2tlLXdpZHRoPSIzIiBmaWxsPSJub25lIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KICAgIDwvZz4KICA8L2c+CiAgCiAgPCEtLSBUZXh0IC0tPgogIDx0ZXh0IHg9IjEwMCIgeT0iMTg1IiBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTQiIGZpbGw9IiNmZmZmZmYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtd2VpZ2h0PSJib2xkIj4KICAgIERFTU8gQ1JFREVOVElBTAogIDwvdGV4dD4KPC9zdmc+Cg=="
+          }
+        ]
+      }
+    }
+  ],
+  "name": "doctype: com.example.credentials.your-credential",
+  "vct": "https://example.com/credentials/your-credential-id"
+}

@@ -1,0 +1,105 @@
+{
+  "format": "mso_mdoc",
+  "doctype": "com.example.credentials.demo-identity",
+  "display": [
+    {
+      "locale": "en-US",
+      "name": "Demo Identity Credential",
+      "description": "A demonstration verifiable credential for identity verification. This credential can be used as a template for creating your own VCTM credentials.",
+      "background_color": "#1a365d",
+      "text_color": "#ffffff"
+    }
+  ],
+  "claims": {
+    "com.example.credentials.demo-identity": {
+      "birth_date": {
+        "display": [
+          {
+            "locale": "en-US",
+            "name": "Date of Birth"
+          },
+          {
+            "locale": "de-DE",
+            "name": "Geburtsdatum"
+          },
+          {
+            "locale": "fr",
+            "name": "Date de naissance"
+          }
+        ],
+        "value_type": "full-date"
+      },
+      "email": {
+        "display": [
+          {
+            "locale": "en-US",
+            "name": "Email"
+          }
+        ],
+        "value_type": "tstr"
+      },
+      "family_name": {
+        "display": [
+          {
+            "locale": "en-US",
+            "name": "Family Name"
+          },
+          {
+            "locale": "fr",
+            "name": "Nom de famille"
+          },
+          {
+            "locale": "de-DE",
+            "name": "Familienname"
+          }
+        ],
+        "mandatory": true,
+        "value_type": "tstr"
+      },
+      "given_name": {
+        "display": [
+          {
+            "locale": "en-US",
+            "name": "Given Name"
+          },
+          {
+            "locale": "de-DE",
+            "name": "Vorname"
+          },
+          {
+            "locale": "fr",
+            "name": "Prénom"
+          }
+        ],
+        "mandatory": true,
+        "value_type": "tstr"
+      },
+      "national_id": {
+        "display": [
+          {
+            "locale": "en-US",
+            "name": "National ID"
+          }
+        ],
+        "value_type": "tstr"
+      },
+      "nationality": {
+        "display": [
+          {
+            "locale": "en-US",
+            "name": "Nationality"
+          },
+          {
+            "locale": "de-DE",
+            "name": "Staatsangehörigkeit"
+          },
+          {
+            "locale": "fr",
+            "name": "Nationalité"
+          }
+        ],
+        "value_type": "tstr"
+      }
+    }
+  }
+}

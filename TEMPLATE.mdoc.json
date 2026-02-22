@@ -1,0 +1,115 @@
+{
+  "format": "mso_mdoc",
+  "doctype": "com/leifj/vctm-template/vctm.githubusercontent.raw.credentials.TEMPLATE",
+  "display": [
+    {
+      "locale": "en-US",
+      "name": "doctype: com.example.credentials.your-credential",
+      "background_color": "#1a365d",
+      "text_color": "#ffffff"
+    }
+  ],
+  "claims": {
+    "com/leifj/vctm-template/vctm.githubusercontent.raw.credentials.TEMPLATE": {
+      "another_claim": {
+        "display": [
+          {
+            "locale": "en-US",
+            "name": "Another Claim"
+          }
+        ],
+        "value_type": "tstr"
+      },
+      "boolean": {
+        "display": [
+          {
+            "locale": "en-US",
+            "name": "boolean"
+          }
+        ],
+        "value_type": "tstr"
+      },
+      "claim_name": {
+        "display": [
+          {
+            "locale": "en-US",
+            "name": "Claim Label"
+          },
+          {
+            "locale": "sv",
+            "name": "Etikett"
+          },
+          {
+            "locale": "de-DE",
+            "name": "Bezeichnung"
+          }
+        ],
+        "mandatory": true,
+        "value_type": "tstr"
+      },
+      "date": {
+        "display": [
+          {
+            "locale": "en-US",
+            "name": "date"
+          }
+        ],
+        "value_type": "tstr"
+      },
+      "datetime": {
+        "display": [
+          {
+            "locale": "en-US",
+            "name": "datetime"
+          }
+        ],
+        "value_type": "tstr"
+      },
+      "image": {
+        "display": [
+          {
+            "locale": "en-US",
+            "name": "image"
+          }
+        ],
+        "value_type": "tstr"
+      },
+      "integer": {
+        "display": [
+          {
+            "locale": "en-US",
+            "name": "integer"
+          }
+        ],
+        "value_type": "tstr"
+      },
+      "optional_claim": {
+        "display": [
+          {
+            "locale": "en-US",
+            "name": "Optional Claim"
+          }
+        ],
+        "value_type": "tstr"
+      },
+      "selective_claim": {
+        "display": [
+          {
+            "locale": "en-US",
+            "name": "Selective Claim"
+          }
+        ],
+        "value_type": "tstr"
+      },
+      "string": {
+        "display": [
+          {
+            "locale": "en-US",
+            "name": "string"
+          }
+        ],
+        "value_type": "tstr"
+      }
+    }
+  }
+}

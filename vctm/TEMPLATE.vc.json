@@ -1,0 +1,78 @@
+{
+  "type": [
+    "VerifiableCredential",
+    "doctype:com.example.credentials.yourcredential"
+  ],
+  "@context": [
+    "https://www.w3.org/2018/credentials/v1",
+    "https://raw.githubusercontent.com/leifj/vctm-template/vctm/contexts/TEMPLATE/v1"
+  ],
+  "name": "doctype: com.example.credentials.your-credential",
+  "display": {
+    "backgroundColor": "#1a365d",
+    "textColor": "#ffffff"
+  },
+  "credentialSchema": {
+    "type": "JsonSchema",
+    "properties": {
+      "credentialSubject": {
+        "type": "object",
+        "properties": {
+          "another_claim": {
+            "type": "string",
+            "title": "Another Claim",
+            "description": "Description of another claim"
+          },
+          "boolean": {
+            "type": "string",
+            "title": "boolean",
+            "description": "- True/false values"
+          },
+          "claim_name": {
+            "type": "string",
+            "title": "Claim Label",
+            "description": "Description of this claim"
+          },
+          "date": {
+            "type": "string",
+            "title": "date",
+            "description": "- Date values (YYYY-MM-DD)"
+          },
+          "datetime": {
+            "type": "string",
+            "title": "datetime",
+            "description": "- Date with time (ISO 8601)"
+          },
+          "image": {
+            "type": "string",
+            "title": "image",
+            "description": "- Base64-encoded image data"
+          },
+          "integer": {
+            "type": "string",
+            "title": "integer",
+            "description": "- Whole numbers"
+          },
+          "optional_claim": {
+            "type": "string",
+            "title": "Optional Claim",
+            "description": "An optional claim"
+          },
+          "selective_claim": {
+            "type": "string",
+            "title": "Selective Claim",
+            "description": "A claim with selective disclosure"
+          },
+          "string": {
+            "type": "string",
+            "title": "string",
+            "description": "- Text values (default)"
+          }
+        },
+        "required": [
+          "claim_name"
+        ]
+      }
+    }
+  }
+}

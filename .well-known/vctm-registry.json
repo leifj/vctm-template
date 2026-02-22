@@ -1,0 +1,58 @@
+{
+  "version": "1.0",
+  "generated": "2026-02-22T20:22:00Z",
+  "repository": {
+    "url": "https://github.com/leifj/vctm-template",
+    "owner": "leifj",
+    "name": "vctm-template",
+    "branch": "main",
+    "commit": "66ba00f157b785126fb3bcc7175fcf7314ef3bef"
+  },
+  "credentials": [
+    {
+      "vct": "https://example.com/credentials/your-credential-id",
+      "name": "doctype: com.example.credentials.your-credential",
+      "source_file": "TEMPLATE.md",
+      "vctm_file": "TEMPLATE.vctm",
+      "last_modified": "2026-02-22T21:21:30+01:00",
+      "commit_history": [
+        {
+          "sha": "66ba00f157b785126fb3bcc7175fcf7314ef3bef",
+          "message": "Add credential template example",
+          "author": "Leif Johansson",
+          "date": "2026-02-22T21:21:30+01:00"
+        }
+      ]
+    },
+    {
+      "vct": "https://example.com/credentials/demo-identity",
+      "name": "Demo Identity Credential",
+      "source_file": "demo-identity.md",
+      "vctm_file": "demo-identity.vctm",
+      "last_modified": "2026-02-22T21:21:30+01:00",
+      "commit_history": [
+        {
+          "sha": "66ba00f157b785126fb3bcc7175fcf7314ef3bef",
+          "message": "Add credential template example",
+          "author": "Leif Johansson",
+          "date": "2026-02-22T21:21:30+01:00"
+        }
+      ]
+    },
+    {
+      "vct": "https://example.com/credentials/student-id",
+      "name": "Student ID Credential",
+      "source_file": "student-id.md",
+      "vctm_file": "student-id.vctm",
+      "last_modified": "2026-02-22T21:21:30+01:00",
+      "commit_history": [
+        {
+          "sha": "66ba00f157b785126fb3bcc7175fcf7314ef3bef",
+          "message": "Add credential template example",
+          "author": "Leif Johansson",
+          "date": "2026-02-22T21:21:30+01:00"
+        }
+      ]
+    }
+  ]
+}
