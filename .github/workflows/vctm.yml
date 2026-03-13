@@ -24,3 +24,5 @@ jobs:
           vctm-branch: vctm
           commit-message: "Update credential metadata files [skip ci]"
           formats: all
+          normalize: true
+          verbose-rules: true
