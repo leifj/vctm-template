@@ -22,8 +22,8 @@ This repository uses an automated workflow to generate Verifiable Credential Typ
    - SVG files are preferred and become SVG templates
 
 4. **Test locally** (optional):
-   - Install mtcvctm: `go install github.com/sirosfoundation/mtcvctm/cmd/mtcvctm@latest`
-   - Generate VCTM: `mtcvctm generate credentials/your-credential.md`
+   - Install registry-cli: `go install github.com/sirosfoundation/registry-cli/cmd/registry-cli@latest`
+   - Build with a local source: `registry-cli build --sources sources.yaml`
    - Verify the output looks correct
 
 5. **Commit and push**:

@@ -1,7 +1,8 @@
 name: Update VCTM
 
-# Disabled: registry-cli now handles credential discovery centrally.
-# The vctm branch is maintained directly. To regenerate, run manually.
+# Disabled: registry-cli now handles credential discovery and conversion centrally.
+# This workflow is kept for reference only. No GitHub Action is needed.
+# See: https://github.com/sirosfoundation/registry-cli
 on:
   workflow_dispatch:
 

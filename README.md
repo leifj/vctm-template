@@ -1,6 +1,6 @@
 # VCTM Template Repository
 
-A template repository for maintaining Verifiable Credential Type Metadata from markdown files. This template uses the [sirosfoundation/mtcvctm](https://github.com/sirosfoundation/mtcvctm) GitHub Action to automatically generate credential metadata in multiple formats.
+A template repository for maintaining Verifiable Credential Type Metadata from markdown files. Credentials defined here are automatically discovered and converted by [registry-cli](https://github.com/sirosfoundation/registry-cli) during registry builds.
 
 ## Supported Output Formats
 
@@ -14,7 +14,7 @@ A template repository for maintaining Verifiable Credential Type Metadata from m
 
 1. **Use this template**: Click "Use this template" to create your own repository
 2. **Add credentials**: Create markdown files in the `credentials/` directory
-3. **Push to main**: The GitHub Action will automatically generate all formats on the `vctm` branch
+3. **Push to main**: Tag your repo with the `vctm` GitHub topic — [registry-cli](https://github.com/sirosfoundation/registry-cli) will discover and convert your credentials during the next registry build
 
 ## Structure
 
@@ -85,10 +85,10 @@ A description of your credential.
 
 ## How It Works
 
-1. When you push changes to markdown files in `credentials/`, the GitHub Action triggers
-2. The `sirosfoundation/mtcvctm` action processes all markdown files
-3. Credential metadata files are generated in multiple formats and committed to the `vctm` branch
-4. A registry file is created at `.well-known/vctm-registry.json`
+1. When you push changes to markdown files in `credentials/` and your repo is tagged with the `vctm` GitHub topic
+2. The [registry-cli](https://github.com/sirosfoundation/registry-cli) build discovers your repository and processes all markdown files
+3. Credential metadata files are generated in all supported formats and published to the registry site
+4. Your credentials appear at `https://registry.siros.org/<your-org>/<slug>`
 
 ## TS11 Schema Metadata
 
@@ -175,6 +175,6 @@ This template is available as open source under the terms of your chosen license
 
 ## Resources
 
-- [mtcvctm GitHub Repository](https://github.com/sirosfoundation/mtcvctm)
+- [registry-cli GitHub Repository](https://github.com/sirosfoundation/registry-cli)
 - [VCTM Specification](https://datatracker.ietf.org/doc/html/draft-ietf-oauth-sd-jwt-vc-11#section-6)
 - [Siros Foundation Documentation](https://sirosfoundation.github.io/docs/)
